@@ -16,7 +16,7 @@ $ docker run -d -v `pwd`:/data imega/redis
 ## Alpine Packages
   * musl (1.1.14-r11)
   * busybox (1.24.2-r11)
-  * redis (3.2.0-r0)
+  * redis (3.2.3-r0)
 
 ## The MIT License (MIT)
 
