@@ -1,4 +1,9 @@
 ### [3.0.5]
 
+  * From image: alpine:3.4
+  * Redis 3.2.0
+
+### [3.0.5]
+
   * From image: alpine:3.3
   * First image with redis 3.0.5

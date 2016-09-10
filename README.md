@@ -1,16 +1,22 @@
 # Redis
 This is docker image to run the [redis](http://redis.io).
 
-[![](https://images.microbadger.com/badges/image/imega/redis.svg)](http://microbadger.com/images/imega/redis "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/imega/redis.svg)](http://microbadger.com/images/imega/redis "Get your own image badge on microbadger.com") [![CircleCI](https://circleci.com/gh/imega-docker/redis.svg?style=svg)](https://circleci.com/gh/imega-docker/redis) [![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star&maxAge=2592000)](https://github.com/imega-docker/redis)
 
-Image size: 5.7 MB
 
-From image: alpine:3.3
+Image size: 3.2 MB
+
+From image: alpine:3.4
 
 ## Usage
 ```
-$ docker run -d -v `pwd`:/data imega/redis:1.0.0
+$ docker run -d -v `pwd`:/data imega/redis
 ```
+
+## Alpine Packages
+  * musl (1.1.14-r11)
+  * busybox (1.24.2-r11)
+  * redis (3.2.0-r0)
 
 ## The MIT License (MIT)
 

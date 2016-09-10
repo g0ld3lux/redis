@@ -1,10 +1,7 @@
-FROM imega/base-builder:1.1.0
+FROM imega/base-builder:1.2.0
 
-EXPOSE 6379
+MAINTAINER Dmitry Gavriloff <info@imega.ru>
 
-COPY . /
-
-RUN apk add --update redis && \
-    rm -rf /var/cache/apk/*
+ADD build/rootfs.tar.gz /
 
 CMD ["redis-server","/redis.conf"]
