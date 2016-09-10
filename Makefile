@@ -9,7 +9,7 @@ buildfs:
 		-v $(CURDIR)/build:/build \
 		-v $(CURDIR)/src:/src \
 		imega/base-builder \
-		--packages="redis"
+		--packages="redis@main"
 
 build/containers/container_data:
 	@mkdir -p $(shell dirname $@)
